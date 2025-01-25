@@ -1,1 +1,1 @@
-# CSCA5028 Final Project
+# CU Boulder Anime Database Project
