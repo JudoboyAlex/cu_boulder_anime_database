@@ -10,7 +10,7 @@
     "esModuleInterop": true, // Enable compatibility for CommonJS modules
     "skipLibCheck": true, // Skip type checking of declaration files
     "forceConsistentCasingInFileNames": true, // Ensure consistent casing
-    "types": ["jest", "@testing-library/jest-dom"],
+    "types": ["jest", "@testing-library/jest-dom", "node", "react", "react-dom"],
     "outDir": "./dist"
   },
   // "files": [], // Keeps it empty for explicit inclusion in sub-configs

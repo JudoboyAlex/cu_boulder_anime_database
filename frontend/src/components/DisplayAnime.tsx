@@ -1,10 +1,6 @@
 import React, { useState, useEffect, ChangeEvent, KeyboardEvent } from "react";
 import axios from "axios";
-import dotenv from "dotenv";
 import "./DisplayAnime.css";
-
-//For env File
-dotenv.config();
 
 interface Anime {
   id: number;
