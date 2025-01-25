@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs", // Jest runs in CommonJS
+    "target": "es6",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"], // Include DOM and modern ES features
+    "jsx": "react-jsx", // Enable JSX for React projects
+    "moduleResolution": "Node", // Use Node.js resolution
+    "strict": true, // Enable strict type-checking options
+    "esModuleInterop": true, // Enable compatibility for CommonJS modules
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Ensure consistent casing
+    "types": ["jest", "@testing-library/jest-dom"],
+    "outDir": "./dist"
+  },
+  // "files": [], // Keeps it empty for explicit inclusion in sub-configs
+  // "references": [
+  //   { "path": "./tsconfig.app.json" },
+  //   { "path": "./tsconfig.node.json" }
+  // ],
+  "include": ["src/**/*.tsx", "tests/**/*"], // Include source and test files
+  "exclude": ["node_modules", "dist"] // Exclude unnecessary files
+}
