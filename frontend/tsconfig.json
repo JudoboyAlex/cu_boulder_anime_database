@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "commonjs", // Jest runs in CommonJS
+    "module": "ESNext", // Jest runs in CommonJS
     "target": "es6",
     "allowSyntheticDefaultImports": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"], // Include DOM and modern ES features
@@ -10,7 +10,7 @@
     "esModuleInterop": true, // Enable compatibility for CommonJS modules
     "skipLibCheck": true, // Skip type checking of declaration files
     "forceConsistentCasingInFileNames": true, // Ensure consistent casing
-    "types": ["jest", "@testing-library/jest-dom", "node", "react", "react-dom"],
+    "types": ["jest", "@testing-library/jest-dom", "node", "react", "react-dom", "vite/client"],
     "outDir": "./dist"
   },
   // "files": [], // Keeps it empty for explicit inclusion in sub-configs
