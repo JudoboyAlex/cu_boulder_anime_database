@@ -20,7 +20,7 @@ const DisplayAnime: React.FC = () => {
 
   const ITEMS_PER_PAGE = 24;
   const backendUrl =
-    process.env.VITE_BACKEND_URL || "http://localhost:3000";
+    import.meta.env.VITE_BACKEND_URL || "http://localhost:3000";
   const fetchAnime = async () => {
     try {
       setLoading(true);
