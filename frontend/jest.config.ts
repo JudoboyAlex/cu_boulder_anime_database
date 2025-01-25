@@ -13,6 +13,7 @@ const config: Config = {
   },
   setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"], // Add custom setup (optional)
   testPathIgnorePatterns: ["/node_modules/", "/dist/"], // Ignore these paths during testing
+  setupFiles: ["./jest.setup.js"],
 };
 
 export default config;

@@ -13,11 +13,6 @@
     "types": ["jest", "@testing-library/jest-dom", "node", "react", "react-dom", "vite/client"],
     "outDir": "./dist"
   },
-  // "files": [], // Keeps it empty for explicit inclusion in sub-configs
-  // "references": [
-  //   { "path": "./tsconfig.app.json" },
-  //   { "path": "./tsconfig.node.json" }
-  // ],
   "include": ["src/**/*.tsx", "tests/**/*"], // Include source and test files
   "exclude": ["node_modules", "dist"] // Exclude unnecessary files
 }
