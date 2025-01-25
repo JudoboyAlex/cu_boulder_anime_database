@@ -19,7 +19,9 @@ const DisplayAnime: React.FC = () => {
   const [searchResults, setSearchResults] = useState<Anime[] | null>(null);
 
   const ITEMS_PER_PAGE = 24;
-  const backendUrl = process.env.REACT_APP_BACKEND_URL || "http://localhost:3000";
+  const backendUrl =
+    process.env.REACT_APP_BACKEND_URL ||
+    "https://cu-boulder-anime-database.onrender.com";
   const fetchAnime = async () => {
     try {
       setLoading(true);
